@@ -1,0 +1,221 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #666 !important;
+}
+
+p {
+    text-align: left;
+    color: #666;
+    font-size: 18px;
+}
+
+a{
+    color: #666 !important;
+}
+/*ヘッダー*/
+.top {
+    background-image: url(img/blackboard1.jpg);
+    background-position: center;
+    height: 200px;
+   
+}
+header{
+    text-align: center;
+    margin-left: 20%;
+}
+
+header .m_container{
+    text-align:right;
+    position: fixed;
+    z-index: 100;
+    width: 120px;
+    margin-left: 55%;
+}
+
+.fa-bars {
+    font-size: 30px !important;
+    color: #d6d3d3 ;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+#collapseExample {
+    width: auto;
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+#collapseExample li{
+    display: block;
+}
+
+#collapseExample a{
+    color: #d6d3d3 !important;
+}
+
+.btn{
+    display: block !important;
+    text-align: right !important;
+}
+
+.container a {
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #d6d3d3 !important;
+}
+
+.container a:hover {
+    color: #fff;
+}
+
+/*body*/
+
+
+h1 {
+    padding: 40px 0;
+    font-weight: bold;
+    font-size: 35px !important;
+}
+
+.plofiele_container img {
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    margin: 30px 60px 40px;
+    border-radius: 10px;
+
+}
+
+.plofiele_txt {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 60px;
+}
+
+.skills li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+.fa-server {
+    font-size: 30px !important;
+}
+
+.fas {
+    font-size: 60px;
+}
+
+.icon {
+    padding: 50px 0;
+}
+
+.contact {
+    background-color: #ede9e9;
+    padding-bottom: 40px;
+}
+
+.contact_container h3 {
+    padding-left: 10%;
+    font-size: 18px;
+    color: #666;
+}
+
+
+
+
+.portfolios {
+    background-color: #d8d8d8;
+    padding-bottom: 100px;
+    height: 850px;
+}
+
+
+
+.btn-primary {
+    background-color: rgba(216, 216, 216, 0.4) !important;
+    border-color: rgba(216, 216, 216, 0.4) !important;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.services_container_contents {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding: 30px;
+    
+}
+
+/*スマホ対応*/
+@media screen and (max-width: 1150px) {
+    
+    
+    .plofiele_container img {
+        width: 40%;
+        margin-left: 30%;
+        
+    }
+    
+    .plofiele_txt{
+        padding-left: 30%;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    
+    .portfolios {
+        padding-bottom: 0;
+        height: 700px;
+    }
+    
+    .services{
+        padding-bottom: 20px;
+    }
+    
+    .services_container_contents {
+        display: block;
+        width: 100%;
+    }
+    
+    .services_container_contents  p{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
+
+/*footer*/
+footer {
+    background-color: #3e3131;
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+}
+
+.footer_container {
+    padding-top: 20px;
+}
+
+.f_txt {
+    color: #fff !important;
+    margin: 0;
+    text-align: center;
+}
